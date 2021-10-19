@@ -6,15 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meu primeiro site em repositorio</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body>
-    <h1>Olá, mundo!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Expedita quis quae mollitia assumenda minima illo soluta
-        quia ad deleniti autem reiciendis perferendis, sint dolores
-        accusantium, laboriosam placeat aliquid magnam maxime?</p>
-    <p>Historia</p>
+<body onload="carregar()">
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+    <section>
+        <div id="msg">
+            Aqui vai amensagem
+        </div>
+        <div>
+            <img id="imagem" src="/site-exemplo/img/fotomanha.png" alt="foto do dia">
+        </div>
+    </section>
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
