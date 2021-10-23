@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antes e depois</title>
+  <style>
+    input {
+      padding: 18px;
+      font: normal 12pt Arial;
+    }
+  </style>
+</head>
+<body>
+  <h1>Antes e depois</h1>
+  <p><input type="button" value="Antecessor e Sucessor" onclick="clique()"></p>
+
+  <script>
+    function clique() {
+      var numero1 = window.prompt('digite um numero')
+      var n1 = numero1 - 1
+      var s = n1 + 2
+      
+      
+
+      window.alert(`Antes de ${numero1}, temos o número ${n1}.
+Depois de ${numero1}, temos o número ${s}.`)
+    }
+  </script>
+</body>
+</html>
